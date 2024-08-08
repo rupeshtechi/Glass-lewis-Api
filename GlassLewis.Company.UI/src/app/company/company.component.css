@@ -1,0 +1,4 @@
+.data-table tbody td {
+    border-bottom: 1px solid #dddddd; /* Customize the color and thickness */
+    padding: 12px;
+  }

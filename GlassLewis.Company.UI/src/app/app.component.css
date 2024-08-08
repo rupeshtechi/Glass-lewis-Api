@@ -1,0 +1,31 @@
+.top-header {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: space-between;  
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .header-title {
+    flex: 1;  
+  }
+  
+  .header-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-actions .btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .header-actions .btn:hover {
+    background-color: #d32f2f;
+  }
+  

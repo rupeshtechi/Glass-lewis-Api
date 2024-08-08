@@ -1,0 +1,40 @@
+  <div class="container">
+    <div class="card" >
+      <div class="card-header">
+        <h3>Companies Details</h3>
+      </div>
+      <div class="card-body">
+        <table class="data-table" style="width: 90%;">
+          <thead >
+            <tr class="data-table-header">
+              <th>ID</th>
+              <th>Name</th>
+              <th>Exchange</th>
+              <th>Ticker</th>
+              <th>Isin</th>
+              <th>Website</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of companies" class="table-row">
+              <td>{{ item.companyID }}</td>
+              <td>{{ item.name }}</td>
+              <td>{{ item.exchange }}</td>
+              <td>{{ item.ticker }}</td>
+              <td>{{ item.isin }}</td>
+              <td>{{ item.website }}</td>
+              <td>
+                <button class="btn">Edit</button>
+                <button class="btn btn-delete">Delete</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="card-footer">
+       
+      </div>
+    </div>
+  </div>
+  

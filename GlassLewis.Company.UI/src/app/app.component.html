@@ -1,0 +1,22 @@
+
+
+<main class="main">
+  <div class="content">
+    
+    <div class="top-header">
+      <label class="header-title">
+        <h3>GlassLewis.Company.UI</h3>
+      </label>
+      <div class="header-actions">
+        <button *ngIf="isAuthenticated" type="button" class="btn" (click)="logout()">Logout</button>
+      </div>
+    </div>
+    <div class="divider" role="separator" aria-label="Divider"></div>
+    <div class="right-side">
+      <router-outlet />
+      
+    </div>
+  </div>
+</main>
+ 
+
